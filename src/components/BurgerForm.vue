@@ -4,8 +4,8 @@
         <div>
             <form id="burger-form" @submit="createBurger">
                 <div class="input-container">
-                <label for="nome">Nome do cliente:</label>
-                <input type="text" id="nome" name="nome" v-model="nome" placeholder="Digite o seu nome">
+                    <label for="nome">Nome do cliente:</label>
+                    <input type="text" id="nome" name="nome" v-model="nome" placeholder="Digite o seu nome">
                 </div>
                 <div class="input-container">
                     <label for="pao">Escolha o pão:</label>
@@ -24,14 +24,16 @@
                             {{ carne.tipo }}
                         </option>
                     </select>
-                </div>       
+                </div>                               
                 <div id="opcionais-container" class="input-container">
-                    <label id="opcionais-title" for="opcionais" >Selecione os opcionais:</label>
+                    <!-- <label id="opcionais-title" for="opcionais" >Selecione os opcionais:</label> -->
+                    <p>Selecione os opcionais:</p>
+                    <br>
                     <div class="checkbox-container" v-for="opcional in opcionaisdata" :key="opcional.id">
                         <input type="checkbox" name="opcionais" v-model="opcionais" :value="opcional.tipo">
                         <span>{{ opcional.tipo }}</span>
-                </div>          
-                </div>                  
+                    </div>          
+                </div>                
                 <div class="input-container">
                     <input class="submit-btn" type="submit" value="Criar meu Burger!">
                 </div>
