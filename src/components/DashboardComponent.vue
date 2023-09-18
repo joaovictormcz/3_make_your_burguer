@@ -80,14 +80,12 @@
 
                 const req = await fetch(`http://localhost:3000/burgers/${id}`, {
                     method: "DELETE"
-                });
+                });                                        
 
-                const res = await req.json();
-
-                console.log(res);
+                const res = await req.json();     
 
                 // Colocar uma msg de sistema
-                this.msg = `Pedido ${res.id} removido com sucesso!`;
+                this.msg = `Pedido ${id} removido com sucesso! ${res.id}`;
 
                 // Limpr msg
                 setTimeout(() => this.msg = "", 3000);
@@ -109,7 +107,12 @@
 
                 const res = await req.json();
 
-                console.log(res)
+                // Colocar uma msg de sistema
+                this.msg = `Pedido ${res.id} foi atualizado para ${res.status}!`;
+
+                // Limpr msg
+                setTimeout(() => this.msg = "", 3000);
+                
 
             }
         },

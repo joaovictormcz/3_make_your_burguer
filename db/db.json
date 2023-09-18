@@ -83,37 +83,23 @@
   ],
   "burgers": [
     {
-      "nome": "erica juliana dos santos",
-      "carne": "Veggie burger",
-      "pao": "Integral",
-      "opcionais": [
-        "Salame",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 6
-    },
-    {
       "nome": "José Roberto Andrade de Souza",
-      "carne": "Picanha",
+      "carne": "Alcatra",
       "pao": "Parmesão e Orégano",
       "opcionais": [
-        "Pepino",
-        "Cebola roxa"
+        "Salame",
+        "Tomate"
       ],
       "status": "Em produção",
-      "id": 7
+      "id": 1
     },
     {
-      "nome": "erica juliana dos santos",
-      "carne": "Picanha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Salame",
-        "Bacon"
-      ],
-      "status": "Solicitado",
-      "id": 8
+      "nome": "Edimilson Correia Lopes Filho",
+      "carne": "Veggie burger",
+      "pao": "Pão Mexicano",
+      "opcionais": [],
+      "status": "Finalizado",
+      "id": 2
     }
   ]
 }
