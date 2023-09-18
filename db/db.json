@@ -83,59 +83,37 @@
   ],
   "burgers": [
     {
-      "nome": "JOAO VICTOR BRANDAO NOGUEIRA",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Salame",
-        "Tomate"
-      ],
-      "status": "Solicitado",
-      "id": 1
-    },
-    {
-      "nome": "samuel ferreira duarte",
-      "carne": "Maminha",
+      "nome": "erica juliana dos santos",
+      "carne": "Veggie burger",
       "pao": "Integral",
       "opcionais": [
         "Salame",
-        "Tomate"
+        "Pepino"
       ],
       "status": "Solicitado",
-      "id": 2
+      "id": 6
     },
     {
-      "nome": "JOAO VICTOR BRANDAO NOGUEIRA",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Salame",
-        "Tomate"
-      ],
-      "status": "Solicitado",
-      "id": 3
-    },
-    {
-      "nome": "JOAO VICTOR BRANDAO NOGUEIRA",
-      "carne": "Alcatra",
+      "nome": "José Roberto Andrade de Souza",
+      "carne": "Picanha",
       "pao": "Parmesão e Orégano",
       "opcionais": [
-        "Bacon",
-        "Tomate"
+        "Pepino",
+        "Cebola roxa"
       ],
-      "status": "Solicitado",
-      "id": 4
+      "status": "Em produção",
+      "id": 7
     },
     {
-      "nome": "JOAO VICTOR BRANDAO NOGUEIRA",
-      "carne": "Alcatra",
+      "nome": "erica juliana dos santos",
+      "carne": "Picanha",
       "pao": "3 Queijos",
       "opcionais": [
         "Salame",
-        "Tomate"
+        "Bacon"
       ],
       "status": "Solicitado",
-      "id": 5
+      "id": 8
     }
   ]
 }
